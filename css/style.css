@@ -58,3 +58,13 @@ div {
 
 /* Style Start */
 
+/* Navigation Bar */
+.top-nav{
+	background-color: #FFF;
+}
+
+.top-nav > .content{
+	width: 60.625em;
+	height: 4.375em;
+	margin: 0 auto;
+}
