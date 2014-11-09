@@ -61,10 +61,16 @@ div {
 /* Navigation Bar */
 .top-nav{
 	background-color: #FFF;
+	padding-left: 0.938em;
 }
 
 .top-nav > .content{
 	width: 60.625em;
 	height: 4.375em;
 	margin: 0 auto;
+}
+#logo{
+	width: 1.625em;
+	height: 4.375em;
+
 }
