@@ -70,7 +70,8 @@ div {
 
 .top-nav{
 	background-color: #FFF;
-	margin-top: 0.625rem;
+	position: fixed;
+	width: 100%;
 }
 
 .top-nav > .content{
@@ -123,11 +124,11 @@ div {
 }
 
 .intro h1{
-	padding-top: 15rem;
-	font-size: 3rem;
+	padding-top: 17.5rem;
+	font-size: 3.125rem;
 }
 
 .intro h3{
-	font-size: 1.5rem;
-	padding-top: 1rem;
+	font-size: 1.25rem;
+	padding-top: 1.563rem;
 }
