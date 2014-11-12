@@ -64,13 +64,13 @@ div {
 
 /* Navigation Bar */
 .content{
-	max-width: 60.625rem;
 	padding: 0 0.9375rem;
 	margin: 0 auto;
 }
 
 .top-nav{
 	background-color: #FFF;
+	margin-top: 0.625rem;
 }
 
 .top-nav > .content{
@@ -85,9 +85,8 @@ div {
 .top-nav .links{
 	float: right;
     color: #838994;
-    letter-spacing: 0.03rem;
-    font-size: 1rem;
-    margin-top: 1.625rem;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
 }
 
 .top-nav .links li{
