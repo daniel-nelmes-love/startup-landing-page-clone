@@ -113,6 +113,7 @@ div {
 	background-size: cover;
 	height: 45.9375rem;
 	overflow: auto;
+	position: relative;
 }
 
 .intro h1,
@@ -160,13 +161,15 @@ div {
 	background-color: #d9400e;
 }
 
+.animation{
+	height: 5.625rem;
+}
+
 .down-arrow{
 	height: 1.4375rem;
 	width: 3.25rem;
 	position: absolute;
 	left: 50%;
-	bottom: -100%;
-	margin-bottom: 1.4375rem;
 	margin-left: -1.625rem;
-
+	bottom: 0;
 }
