@@ -133,3 +133,21 @@ div {
 	font-size: 1.5625rem;
 
 }
+
+.big-button{
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    display: block;
+    margin: 2.5rem auto 0 auto;
+    background-color: #f15a29;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.big-button:hover{
+	cursor: pointer;
+	background-color: #d9400e;
+}
