@@ -159,3 +159,14 @@ div {
 	cursor: pointer;
 	background-color: #d9400e;
 }
+
+.down-arrow{
+	height: 1.4375rem;
+	width: 3.25rem;
+	position: absolute;
+	left: 50%;
+	bottom: -100%;
+	margin-bottom: 1.4375rem;
+	margin-left: -1.625rem;
+
+}
