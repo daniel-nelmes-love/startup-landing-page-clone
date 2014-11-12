@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -51,7 +53,6 @@ table {
 
 body {
     background-color: LightGray;
-    -webkit-font-smoothing: antialiased;
 }
 }
 div {
@@ -62,6 +63,7 @@ div {
 
 /* Navigation Bar */
 .content{
+	max-width: 60.625rem;
 	padding: 0 0.9375rem;
 	margin: 0 auto;
 }
@@ -81,7 +83,6 @@ div {
 
 .top-nav .links{
 	float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     letter-spacing: 0.03rem;
     font-size: 1rem;
@@ -115,7 +116,6 @@ div {
 .intro h1,
 .intro h3{
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
 	color: white;
 	-webkit-font-smoothing: antialiased;
 }
