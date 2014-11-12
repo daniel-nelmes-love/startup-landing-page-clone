@@ -114,6 +114,7 @@ div {
 	height: 45.9375rem;
 	overflow: auto;
 	position: relative;
+	z-index: -1;
 }
 
 .intro h1,
