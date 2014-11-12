@@ -161,15 +161,22 @@ div {
 	background-color: #d9400e;
 }
 
-.animation{
+.arrow-wrapper{
 	height: 5.625rem;
-}
-
-.down-arrow{
-	height: 1.4375rem;
 	width: 3.25rem;
 	position: absolute;
 	left: 50%;
 	margin-left: -1.625rem;
 	bottom: 0;
+}
+
+
+alternate animation
+ .down-arrow{
+ -webkit-animation: fade 0.6s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes fade {
+  0%   { opacity: 0; }
+  100%  { opacity: 1; }
 }
