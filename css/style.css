@@ -223,6 +223,12 @@ div {
 
 /* cases */
 
+.cases{
+	background-color: white;
+	padding-bottom: 5rem;
+	overflow: hidden;
+}
+
 .cases .content{
 	margin-top: 7.875rem;
 	color: #1d1e21;
