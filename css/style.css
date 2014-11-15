@@ -75,6 +75,7 @@ div {
 	position: fixed;
 	width: 100%;
 	border-bottom: 1px solid #DDD;
+	z-index: 9999;
 }
 
 .top-nav > .content{
@@ -118,7 +119,6 @@ div {
 	height: 45.938rem;
 	overflow: auto;
 	position: relative;
-	z-index: -1;
 }
 
 .intro h1,
