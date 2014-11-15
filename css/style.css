@@ -63,6 +63,7 @@ div {
 /* Style Start */
 
 /* Navigation Bar */
+
 .content{
 	padding: 0 0.9375rem;
 	margin: 0 auto;
@@ -108,6 +109,7 @@ div {
 }
 
 /* Introduction */
+
 .intro{
 	background-image: url('../img/first-background.jpg');
 	background-position: center bottom;
@@ -217,4 +219,30 @@ div {
     .content {
         width: 60%;
     }
+}
+
+/* cases */
+
+.cases >.content{
+	color: #1d1e21;
+	text-align: center;
+}
+.content > h2{
+	font-size: 2.75rem;
+	font-weight: 300;
+	margin: 1.625rem 0 3.125rem;
+}
+
+.cases .devices{
+	width: 33.33%;
+	display: inline-block;
+	/* debug */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+}
+
+.devices{
+	width: 7.9375rem;
+	height: 7.9375rem;
 }
