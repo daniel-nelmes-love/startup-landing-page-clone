@@ -223,7 +223,8 @@ div {
 
 /* cases */
 
-.cases >.content{
+.cases .content{
+	margin-top: 7.875rem;
 	color: #1d1e21;
 	text-align: center;
 }
@@ -233,16 +234,20 @@ div {
 	margin: 1.625rem 0 3.125rem;
 }
 
-.cases .devices{
-	width: 33.33%;
-	display: inline-block;
-	/* debug */
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
+.cases .devices {
+    display: flex;
 }
 
-.devices{
+.cases li{
+	width: 33.3333333%;
+	/* debugging 
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+    */
+}
+
+.cases img{
 	width: 7.9375rem;
 	height: 7.9375rem;
 }
