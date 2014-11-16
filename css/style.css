@@ -300,3 +300,9 @@ div {
 .icons .instagram{
 	color: #3f729b;
 }
+
+.social p{
+	color: #838994;
+	font-size: 0.9rem;
+	font-weight: 300;
+}
