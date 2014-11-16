@@ -265,6 +265,13 @@ div {
 
 /* footer */
 
+.social{
+	background-color: white;
+	overflow: auto;
+	padding-top: 9.375rem;
+	text-align: center;
+}
+
 .icons li{
 	display: inline-block;
 	width: 2.5rem;
@@ -274,4 +281,16 @@ div {
 	margin: 1.25rem 0.3125rem;
 	padding: 0.625rem 0;
 	text-align: center;
+}
+
+.icons .twitter{
+	color: #55acee;
+}
+
+.icons .facebook{
+	color: #4c66a4;
+}
+
+.icons .instagram{
+	color: #3f729b;
 }
